@@ -43,7 +43,7 @@ export default function CV() {
         <Link href="/fr">
           <h2>Français</h2>
         </Link> */}
-        <div>{example}</div>
+        
         
       <Navbar />
       <div className="relative">
