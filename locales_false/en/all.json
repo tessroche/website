@@ -6,13 +6,13 @@
         },
         "intro" :{
             "title": "Why IDeA?",
-            "subtitle": "Why should you contact us?",
+            "subtitle": "Why should you contact us",
             "description": "We are a team of student who learned how to code and we want to help you to create your project."
         },
         "presentation" :{
             "title":{
                 "1": "Lots of skills",
-                "2": "And more..."
+                "2": "And more...e"
             },
             "subtitle" :{
                 "1": "Thanks to our different experiences, we have acquired a lot of skills in different fields."
@@ -30,7 +30,7 @@
                 "1b": "Create a machine learning model to predict your data.",
                 "1c": "Create a dashboard to visualize your data.",
                 "2a": "Manage your big data.",
-                "2b": "Manage your project from start to finish.",
+                "2b": "Manage your project from A to Z.",
                 "2c": "Create a website for your project."
 
             }
@@ -41,9 +41,9 @@
             "subtitle": "Here's some of our projects",
             "description" :{
                 "1": "We have already worked on some projects, here are some of them.",
-                "2": "Creation of a visualization tool for cinema data and its competitors, ensuring regular and automated updates",
-                "3": "Predict the number of visitors of the park by day or night.",
-                "4": "Process and analyze data related to games and subscriptions using dashboards, and implement a customer typology"
+                "2": "Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.",
+                "3": "Predict the number of visitor of the park by day or night.",
+                "4": "Processing and analysis of data concerning matches and subscriptions through dashboards, and implementation of a customer typology."
             },
             "client" :{
                 "1": "CGR",
@@ -54,13 +54,13 @@
         "faq" :{
             "title": "FAQ",
             "subtitle": "Frequently Asked Questions",
-            "description": "If you still have any questions, please have a look",
+            "description": "If you still have questions look here",
             "question" :{
-                "1": "Are our services free of charge?",
+                "1": "Are our services free ?",
                 "2": "How can I contact you ?"
             },
             "answer" :{
-                "1": "Yes, our services are completely free of charge!",
+                "1": "Yes, our services are completely free!",
                 "2": "Email us at ideamiage@gmail.com"
             }
         },
@@ -77,7 +77,7 @@
             "instagram": "Instagram",
             "linkedin": "Linkedin",
             "mailto": "Mail To",
-            "copyright": "Copyright IDeA Â© 2023."
+            "copyright": "Copyright IDeA © 2023."
         }
     }
 }

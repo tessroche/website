@@ -4,6 +4,7 @@ import Hero from "@/components/home/hero";
 import SectionTitle from "@/components/home/sectionTitle";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from 'next/router';
 import {
   ArrowTrendingUpIcon,
   ChartBarIcon,
@@ -24,25 +25,26 @@ import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
-import i18nConfig from '../../i18n'
-
+import { withTranslation, i18n } from "i18n"
+import i18nConfig from 'i18n.json';
 import setLanguage from 'next-translate/setLanguage'
 
 
 
 export default function CV() {
   const [open, setOpen] = useState(false);
-  const { t, lang } = useTranslation('all')
-  
+  const {t, lang} = useTranslation('all')
+
   return (
     <div className="bg-white_background_bobby px-6">
-            <Link href="/en" locale="en">
+        {/* <Link href="/en">
           <h2>Anglais</h2>
         </Link>
-        <Link href="/fr" locale="fr">
+        <Link href="/fr">
           <h2>Français</h2>
-        </Link>
-
+        </Link> */}
+        <div>{example}</div>
+        
       <Navbar />
       <div className="relative">
         <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby"/>
@@ -62,9 +64,9 @@ export default function CV() {
       <Hero />
       <SectionTitle
         id="skills"
-        pretitle={t('all:home.intro.title')}
-        title={t('all:home.intro.subtitle')}>
-        {t('all:home.intro.description')}
+        pretitle={t('home.intro.title')}
+        title={t('home.intro.subtitle')}>
+        {t('home.intro.description')}
       </SectionTitle>
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
         <div
@@ -85,10 +87,10 @@ export default function CV() {
           <div>
             <div className="mt-4 flex w-full flex-col">
               <h3 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-              {t('all:home.presentation.title.1')}
+              {t('home.presentation.title.1')}
               </h3>
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
-              {t('all:home.presentation.subtitle.1')}
+              {t('home.presentation.subtitle.1')}
               </p>
             </div>
             <div className="mt-5 w-full">
@@ -98,10 +100,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    {t('all:home.presentation.subsubtitle.1a')}
+                    {t('home.presentation.subsubtitle.1a')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      A{t('all:home.presentation.description.1a')}
+                      A{t('home.presentation.description.1a')}
                     </p>
                   </div>
                 </div>
@@ -111,10 +113,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    {t('all:home.presentation.subsubtitle.1b')}
+                    {t('home.presentation.subsubtitle.1b')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    {t('all:home.presentation.description.1b')}
+                    {t('home.presentation.description.1b')}
                     </p>
                   </div>
                 </div>
@@ -124,10 +126,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    {t('all:home.presentation.subsubtitle.1c')}
+                    {t('home.presentation.subsubtitle.1c')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    {t('all:home.presentation.description.1c')}
+                    {t('home.presentation.description.1c')}
                     </p>
                   </div>
                 </div>
@@ -214,7 +216,7 @@ export default function CV() {
         title={t('all:home.faq.subtitle')}>
         {t('all:home.faq.description')}
       </SectionTitle>
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
       <SliderHome open={open} setOpen={setOpen}/>
     </div>

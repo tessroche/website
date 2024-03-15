@@ -8,5 +8,6 @@ export default function HomePage() {
     <main>
       <CV />
     </main>
+    
   );
 }

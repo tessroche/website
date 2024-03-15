@@ -1,7 +1,9 @@
 import Image from "next/image";
 import heroImg from "@/public/image/hero.png";
+import useTranslation from 'next-translate/useTranslation'
 
 const Hero = () => {
+const { t, lang } = useTranslation('all')
   return (
     <>
       <div className="container mx-auto p-8 xl:px-0 flex flex-wrap">
@@ -11,7 +13,7 @@ const Hero = () => {
               IDeA
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
-              A community of students who are passionate about technology and innovation.
+              {t('home.head.description')}
             </p>
           </div>
         </div>

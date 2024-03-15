@@ -2,48 +2,46 @@
     "test" :"un test",
     "home" : {
         "head" :{
-            "description": "Une communauté d'étudiants passionnée d'informatique et d'innovation."
+            "description": "Une communauté d'étudiants passionnée par l'informatique et l'innovation."
         },
         "intro" :{
-            "title": "Why IDeA?",
-            "subtitle": "Why should you contact us",
-            "description": "We are a team of student who learned how to code and we want to help you to create your project."
+            "title": "Pourquoi IDeA?",
+            "subtitle": "Pourquoi vous devez nous contacter?",
+            "description": "Nous sommes une équipe d'étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet."
         },
         "presentation" :{
             "title":{
-                "1": "Lots of skills",
-                "2": "And more..."
+                "1": "De nombreuses compétences",
+                "2": "Et plus encore..."
             },
             "subtitle" :{
-                "1": "Grâce à nos experiences, we have acquired a lot of skills in different fields."
+                "1": "Grâce à nos experiences, nous avons acquis de nombreuses compétences dans différents domaines."
             },
             "subsubtitle" :{
-                "1a": "Data analysis",
+                "1a": "Analyse des données",
                 "1b": "Machine Learning",
                 "1c": "Data visualization",
                 "2a": "Big Data",
-                "2b": "Project Management",
-                "2c": "Web Development"
+                "2b": "Gestion de projet",
+                "2c": "Développement Web"
             },
             "description" :{
-                "1a": "Analyze your data and extract the information you need.",
-                "1b": "Create a machine learning model to predict your data.",
-                "1c": "Create a dashboard to visualize your data.",
-                "2a": "Manage your big data.",
-                "2b": "Manage your project from A to Z.",
-                "2c": "Create a website for your project."
-
-            }
-            
+                "1a": "Analysez vos données et extrayez les informations dont vous avez besoin.",
+                "1b": "Créez un modèle de machine learning pour prédire vos données.",
+                "1c": "Créez un tableau de bord pour visualiser vos données.",
+                "2a": "Gérez votre projet big data",
+                "2b": "Pilotez votre projet de A à Z.",
+                "2c": "Créez un site web pour votre projet."
+            }        
         },
         "project" :{
-            "title": "Projects",
-            "subtitle": "Here's some of our projects",
+            "title": "Projets",
+            "subtitle": "Voici quelques-uns de nos projets",
             "description" :{
-                "1": "We have already worked on some projects, here are some of them.",
-                "2": "Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.",
-                "3": "Predict the number of visitor of the park by day or night.",
-                "4": "Processing and analysis of data concerning matches and subscriptions through dashboards, and implementation of a customer typology."
+                "1": "Nous avons déjà travaillé sur quelques projets, en voici quelques-uns.",
+                "2": "Création d'un outil de visualisation des données du cinéma et de ses concurrents, assurant des mises à jour régulières et automatisées",
+                "3": "Prévoir le nombre de visiteurs du parc de jour comme de nuit.",
+                "4": "Traitement et analyse des données concernant les matchs et les abonnements par le biais de tableaux de bord, et mise en place d'une typologie des clients."
             },
             "client" :{
                 "1": "CGR",
@@ -53,30 +51,30 @@
         },
         "faq" :{
             "title": "FAQ",
-            "subtitle": "Frequently Asked Questions",
-            "description": "If you still have questions look here",
+            "subtitle": "Foire Aux Questions",
+            "description": "Si vous avez encore des questions, n'hésitez pas à consulter la section qui suit",
             "question" :{
-                "1": "Are our services free ?",
-                "2": "How can I contact you ?"
+                "1": "Nos services sont-ils gratuits ?",
+                "2": "Comment puis-je vous contacter ?"
             },
             "answer" :{
-                "1": "Yes, our services are completely free!",
-                "2": "Email us at ideamiage@gmail.com"
+                "1": "Oui, nos services sont complètement gratuits!",
+                "2": "Envoyez nous un email à l'adresse ideamiage@gmail.com"
             }
         },
         "footer" :{
-            "description": "IDeA is a non-profit organization that promotes the development of various projects in the field of education, culture, art and science.",
-            "home": "Home",
-            "skills": "Skills",
-            "projects": "Projects",
+            "description": "IDeA est une organisation à but non lucratif qui promeut le développement de divers projets dans le domaine de l'éducation, de la culture, de l'art et de la science.",
+            "home": "Accueil",
+            "skills": "Compétences",
+            "projects": "Projets",
             "faq": "FAQ",
-            "terms": "Terms",
-            "privacy": "Privacy",
-            "legal": "Legal",
-            "followus": "Follow us",
+            "terms": "Conditions",
+            "privacy": "Confidentialité",
+            "legal": "Juridique",
+            "followus": "Nous suivre",
             "instagram": "Instagram",
             "linkedin": "Linkedin",
-            "mailto": "Mail To",
+            "mailto": "Mail à",
             "copyright": "Copyright IDeA © 2023."
         }
     }
